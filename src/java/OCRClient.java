@@ -2,7 +2,7 @@
 /**
   mkdir bin
   javac -d bin OCRClient.java
-  java -cp bin OCRClient --table ../../data/costco-bw.jpg | jq '.ParsedResults[0].ParsedText'
+  java -cp bin OCRClient --table ../../data/receipt-en.jpg | jq '.ParsedResults[0].ParsedText'
 */
 import java.io.FileInputStream;
 import java.io.InputStream;
